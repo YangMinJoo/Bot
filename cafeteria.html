@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang= "ko">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title> 학식메뉴 </title>
+
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+		<div id="menu-item" class="menu-item hide-menu">
+            <div class="container">
+                <ul>
+                    <a href="home.html"><li>home</li></a>
+                    <a href="cafeteria.html"><li>학식메뉴</li></a>
+                    <a href="#expertise"><li>학교근처식당</li></a>
+                    <a href="#workstation"><li>배달</li></a>
+                    <a href="#team"><li>학교정보</li></a>
+                    <a href="#contact"><li>놀거리</li></a>
+                    <a href="elements.html"><li>질문</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navigation-bar">
+                    <div class="row">
+                        <div class="col-xs-6 text-right">
+                            <div class="menu m">
+                                <a href="#"><span class="ion-navicon _ion-android-menu"></span></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 text-right">
+                            <div class="menu m">
+                                <a href="#"><span class="ion-navicon _ion-android-menu"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section id="todayTimer" class="today">
+            <div class="container-fluid">
+                <div class="row">
+                    <div clas="col-sm-8 col-sm-offset-2">
+                        <p id="today"> </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+			<section id="dormitory_cafeteria"  class="dormitory">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h2 class="title">기숙사 식당</h2>
+                            <div id="expert-slider" class="owl-carousel">
+                                <div class="item">
+                                	<h3 class="cafeteriaTime">아침</h3>
+                                    <p>백미밥 </p>
+									<p>김치라면찌개</p>
+									<p>조기구이 (와사비간장)</p>
+									<p>두부참치조림</p>
+									<p>김치</p>
+									<p>사과</p>
+                                </div>
+                                <div class="item">
+                                	<h3 class="cafeteriaTime">점심</h3>
+                                    <p>기장밥</p>
+									<p>육개장</p>
+									<p>매콤깐풍기</p>
+									<p>꽈리고추계란장조림</p>
+									<p>미역오이무침</p>
+									<p>김치</p>
+                                </div>
+                                <div class="item">
+                                    <h3 class="cafeteriaTime">저녁</h3>
+                                    <p>간자장밥</p>
+									<p>맑은우동국</p>
+									<p>군만두(간장)</p>
+									<p>단무지</p>
+									<p>매실쥬스</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                	</div>
+                </div>
+            </section>
+
+            <section id="Student_cafeteria" class="cafeteria">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h2 class="title">학생회관 식당</h2>
+                            <div id="workstation-slider" class="owl-carousel">
+                                <div class="item">
+	                                <p>백미밥</p>
+									<p>뚝배기 불고기</p>
+									<p>동그랑땡전</p>
+									<p>오이무침</p>
+									<p>포기김치</p>
+                                </div>
+                                <div class="item">
+                                	<p>함박스테이크</p>
+									<p>참치날치알밥</p>
+                                </div>
+
+                                <div class="item">
+                                	<p>돈까스정식</p>
+									<p>치즈돈까스정식</p>
+									<p>고구마돈까스정식</p>
+									<p>왕돈까스정식</p>
+									<p>피자돈까스정식</p>
+                                </div>
+                            </div>
+                        </div>
+                	</div>
+                </div>
+            </section>
+
+            <section id="library" class="library">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h2 class="title">도서관 식당</h2>
+                                <div class="item">
+                                	<h4 class="cafeteriaTime">오늘의 메뉴 : 치즈돈까스</h4>
+                                	<p>토스트</p>
+                                	<p>라면</p>
+                                	<p>떡볶이</p>
+                                	<p>김밥</p>
+                                </div>
+                            </div>
+                        </div>
+                	</div>
+                </div>
+            </section>
+
+        <script src="assets/js/jquery-3.1.1.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="https://use.fontawesome.com/55b73bf748.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/script.js"></script>
+	    
+        <script>
+            document.getElementById("today").innerHTML = Date();
+        </script>   
+
+	</body>
+</html>
